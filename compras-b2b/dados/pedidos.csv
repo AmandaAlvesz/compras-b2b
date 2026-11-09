@@ -1,0 +1,9 @@
+pedido_id,data_pedido,fornecedor,situacao,valor_total
+101,2026-01-08,Alfa Suprimentos,Concluido,1200.00
+102,2026-01-21,Beta Industrial,Concluido,1200.00
+103,2026-01-26,Gama Embalagens,Cancelado,500.00
+104,2026-02-05,Gama Embalagens,Concluido,2400.00
+105,2026-02-18,Alfa Suprimentos,Concluido,600.00
+106,2026-02-23,Beta Industrial,Em aberto,700.00
+107,2026-03-07,Beta Industrial,Concluido,1800.00
+108,2026-03-20,Gama Embalagens,Concluido,3000.00

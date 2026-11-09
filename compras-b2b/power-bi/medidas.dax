@@ -1,0 +1,17 @@
+// Crie uma medida por vez. Nome da tabela importada: Pedidos.
+// Se o editor usar ponto e vírgula como separador DAX, adapte as vírgulas.
+
+Total de compras =
+CALCULATE(
+    SUM(Pedidos[valor_total]),
+    KEEPFILTERS(Pedidos[situacao] = "Concluido")
+)
+
+Pedidos concluídos =
+CALCULATE(
+    COUNTROWS(Pedidos),
+    KEEPFILTERS(Pedidos[situacao] = "Concluido")
+)
+
+Ticket médio =
+DIVIDE([Total de compras], [Pedidos concluídos])
